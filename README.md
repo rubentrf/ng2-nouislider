@@ -1,37 +1,39 @@
-# ng2-nouislider
+# ng2-nouislider-prot
 
 [![Build Status](https://travis-ci.org/tb/ng2-nouislider.svg?branch=master)](https://travis-ci.org/tb/ng2-nouislider)
 [![npm version](https://badge.fury.io/js/ng2-nouislider.svg)](http://badge.fury.io/js/ng2-nouislider)
 [![Downloads](http://img.shields.io/npm/dm/ng2-nouislider.svg)](https://npmjs.org/package/ng2-nouislider)
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 
-Angular2 nouislider component
+Angular2 nouislider component.
+
+_Note: this version is a fork of [tomaszbak](https://www.npmjs.com/~tomaszbak)'s to provide subclass access to the native DOM element._
 
 See [demos](http://tb.github.io/ng2-nouislider/)
 
 ## Install
 
-    npm i --save nouislider ng2-nouislider
+    npm i --save nouislider ng2-nouislider-prot
 
 ## Import
 
-    import { NouisliderModule } from 'ng2-nouislider';
+    import { NouisliderModule } from 'ng2-nouislider-prot';
 
 ### Styles
 
-    @import "~nouislider/distribute/nouislider.min.css";
+    @import "~nouislider-prot/distribute/nouislider.min.css";
 
 ### SystemJS config
 
 Add to map:
 
     'nouislider': 'node_modules/nouislider',
-    'ng2-nouislider': 'node_modules/ng2-nouislider',
+    'ng2-nouislider': 'node_modules/ng2-nouislider-prot',
 
 Add to packages:
 
     'nouislider': { main: 'distribute/nouislider.js', defaultExtension: 'js' },
-    'ng2-nouislider': { main: 'src/nouislider.js', defaultExtension: 'js' },
+    'ng2-nouislider-prot': { main: 'src/nouislider.js', defaultExtension: 'js' },
 
 ## Usage
 

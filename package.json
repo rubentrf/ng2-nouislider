@@ -1,7 +1,7 @@
 {
-  "name": "ng2-nouislider",
+  "name": "ng2-nouislider-prot",
   "version": "1.7.3",
-  "description": "Angular2 noUiSlider component",
+  "description": "Angular2 noUiSlider component, with a twist.",
   "main": "src/nouislider.js",
   "typings": "src/nouislider.d.ts",
   "scripts": {
@@ -22,14 +22,14 @@
     "component",
     "directive"
   ],
-  "author": "Tomasz Bak <t.bak@selleo.com>",
+  "author": "Rubén Trujillo <rubentrf@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tb/ng2-nouislider"
+    "url": "https://github.com/rubentrf/ng2-nouislider"
   },
   "bugs": {
-    "url": "https://github.com/tb/ng2-nouislider/issues"
+    "url": "https://github.com/rubentrf/ng2-nouislider/issues"
   },
   "devDependencies": {
     "@angular/animations": "^5.0.0",
